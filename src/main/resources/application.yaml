@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-ci8qslp8g3n3vm68da30-a.frankfurt-postgres.render.com:5432/test_5or5
+    username: alfred
+    password: p7BAaIvVJcyJDRddL2SiA8borM3NG69g
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  profiles:
+    active: load-data
+server:
+  port: 8080
